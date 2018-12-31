@@ -1,5 +1,5 @@
 <template>
-    
+    <h1>hello dashboard page </h1>
 </template>
 
 <script>
