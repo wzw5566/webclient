@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '../views/layout/Home'
 import Header from '../views/layout/Header'
 import Dashborad from '../views/dashboard/Dashboard'
+import AsinAnalysis from '../views/asin-analiysis/AsinAnalysis'
 
 Vue.use(Router)
 
@@ -20,6 +21,11 @@ export default new Router({
                   component:Dashborad,
                   meta: {title: '系统首页'}
 
+              },
+              {
+                  path: '/analysis',
+                  component: AsinAnalysis,
+                  meta:{title: 'ASIN分析'}
               }
           ]
       },
